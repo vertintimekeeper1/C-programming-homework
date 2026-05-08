@@ -28,5 +28,6 @@ jobs:
       - name: Install gcc
         run: sudo apt update && sudo apt install -y gcc
 
-      - name: Compile
+      - name: Compile and run
         run: gcc *.c -o program
+             ./program
